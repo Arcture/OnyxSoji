@@ -6,7 +6,7 @@ document.getElementById("loginButton").addEventListener("click", () => {
     // Validation
     if (firstName.toLowerCase() === "caryl" && password === "10302019") {
         window.location.href = "doyouloveme.html"; // Redirect on successful login
-    } else if (password !== "10302019") {
+    } else if (password !== "10/30/2019") {
         clue.style.display = "block";
         clue.textContent = "Clue: Anniversary date in numerical format (DD/MM/YYYY).";
     } else {
